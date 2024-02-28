@@ -3,21 +3,6 @@
     box-sizing: border-box;
 }
 
-  /* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-
 
 /* header start */
 .header{
@@ -52,6 +37,7 @@
 
 .header-navbar>a:hover{
     background-color: tomato;
+    color: white;
 }
 
 .header-contact-info{
@@ -68,8 +54,22 @@
     border-radius: 8px;
 }
 
+.header-contact-info-sign-in{
+    text-decoration: none;
+    padding: 1% 2%;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
 .header-contact-info>a:hover{
     background-color: #8d8e90;
+    color: white;
+}
+
+.header-contact-info-sign-in:hover{
+    background-color: #8d8e90;
+    color: white;
 }
 
 
@@ -111,10 +111,13 @@
     text-decoration: none;
     padding: 5% 10%;
     border-radius: 10px;
+    box-shadow: 0 0 1px #ccc;
+    transition: all 0.5s ease-in-out;
 }
 
 .fixed-header-btn:hover{
     text-decoration: none;
     color: white;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    transform: scale(1.1);
+    background-color: tomato;
 }
