@@ -94,6 +94,7 @@
 
 .fixed-header{
     padding: 27px;
+    background-color: white;
 }
 
 .fixed-header-container{
@@ -109,9 +110,9 @@
 
 .fixed-header-manu>a{
     text-decoration: none;
-    padding: 2%;
+    padding-right: 2%;
     color: black;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .fixed-header-btn-div{
