@@ -115,6 +115,13 @@
     font-size: 19px;
 }
 
+.fixed-header-manu>div>a{
+    text-decoration: none;
+    padding-right: 2%;
+    color: black;
+    font-size: 19px;
+}
+
 .fixed-header-btn-div{
     margin-top: 4px;
 }
