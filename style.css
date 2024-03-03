@@ -151,3 +151,8 @@
     transform: scale(1.1);
     background-color: tomato;
 }
+
+.dropdwn-itm>li>a:hover{
+    background-color: red;
+    color: white;
+}
