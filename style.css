@@ -87,6 +87,10 @@
 }
 
 
+.nav-dropdown-li{
+    z-index: 1000;
+}
+
 /* header end */
 
 
@@ -120,6 +124,10 @@
     padding-right: 2%;
     color: black;
     font-size: 19px;
+}
+
+.fixed-header-manu>div>a:hover{
+    color: tomato;
 }
 
 .fixed-header-btn-div{
