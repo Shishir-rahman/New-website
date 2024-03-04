@@ -156,3 +156,10 @@
     background-color: red;
     color: white;
 }
+
+
+.fixed-bg {
+    background-image: url("./Image/0HK_0666.jpg");
+    height: 950px;
+    background-attachment: fixed;
+}
