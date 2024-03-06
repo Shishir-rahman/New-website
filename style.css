@@ -163,3 +163,8 @@
     height: 950px;
     background-attachment: fixed;
 }
+
+address{
+    display: block;
+    font-style: italic !important;
+}
